@@ -144,8 +144,8 @@ def separated_shapes(mat):
 
 
 
-inpath = "../dataset/all"
-descriptors_path = "../dataset/all.csv"
+inpath = "../dataset/profs"
+descriptors_path = "../dataset/profs.csv"
 
 files = [f for f in listdir(inpath) if isfile(join(inpath, f))]
 descriptors = {
