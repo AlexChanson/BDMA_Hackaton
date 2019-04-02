@@ -7,8 +7,8 @@ from pprint import pprint
 import csv
 import collections
 
-inpath = "../dataset/sample"
-outpath = "../dataset/sample_resized"
+inpath = "../dataset/profs"
+outpath = "../dataset/profs_resize"
 
 files = [f for f in listdir(inpath) if isfile(join(inpath, f))]
 
